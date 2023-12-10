@@ -3,7 +3,7 @@ In Django, app is the web app that is going to do something, like:
  - small poll app  
 Each app provides a specific peace piece of functionality.  
 App should do one thing and do it well
-<img width="811" alt="image" src="https://github.com/KidPudel/python-lookup/assets/63263301/327d45d7-fdc6-484b-9fc0-3b5d33e35d70">
+<img width="500" alt="image" src="https://github.com/KidPudel/python-lookup/assets/63263301/327d45d7-fdc6-484b-9fc0-3b5d33e35d70">  
 Best design:
 - minimal coupling
   - to separate wisely, not (card, order, product, tag), BUT rather (card-order-product, tag), because it makes sense to have some together always (go only together) and some are separately for reuse
